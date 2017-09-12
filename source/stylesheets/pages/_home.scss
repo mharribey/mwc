@@ -1,5 +1,50 @@
-header{
-  background: url('../images/bkg-header.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+// header{
+//   background: url('../images/bkg-header.jpg');
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: fixed;
+// }
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.sous-titre{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.cadre{
+  border: 9px solid #FFFFFF;
+  padding: 9px;
+}
+
+#identite, #activite{
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+#identite::after{
+opacity: 0.1;
+font-size: 90px;
+position: absolute;
+content: 'identité';
+top: 11px;
+left: 11px;
+}
+
+#activite::after{
+opacity: 0.1;
+font-size: 90px;
+position: absolute;
+content: 'activités';
+top: 11px;
+left: 11px;
+}
+
+.logo-pres{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

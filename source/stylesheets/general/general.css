@@ -15,4 +15,23 @@
 .p-t-50{padding-top: 50px;}
 .p-t-100{padding-top: 100px;}
 
+.p-b-100{padding-bottom: 100px;}
 .p-b-400{padding-bottom: 400px;}
+
+.m-t-30{margin-top: 30px;}
+.m-t-50{margin-top: 50px;}
+
+.m-b-50{margin-bottom: 50px;}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-right{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mw-100{max-width: 100%}
