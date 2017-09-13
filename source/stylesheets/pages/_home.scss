@@ -24,7 +24,7 @@ h1{
   padding: 9px;
 }
 
-#identite, #activite{
+#identite, #activite, #planning{
   font-weight: 900;
   margin-bottom: 60px;
 }
@@ -47,6 +47,15 @@ top: 11px;
 left: 11px;
 }
 
+#planning::after{
+opacity: 0.1;
+font-size: 90px;
+position: absolute;
+content: 'planning';
+top: 11px;
+left: 11px;
+}
+
 .logo-pres{
   width: 100%;
   margin-top: -20px;
@@ -56,3 +65,14 @@ left: 11px;
 .activite-title{
   font-weight: 900;
 }
+
+.heure{
+  font-size: 144px;
+  color: #000000;
+  opacity: 0.2;
+  font-weight: 900;
+}
+
+.line{
+  height: 5px;
+  background: #FFFFFF;}
