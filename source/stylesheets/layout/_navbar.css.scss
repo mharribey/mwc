@@ -43,9 +43,12 @@
   color: #1C1C1C;
   font-weight: 900;
   font-size: 18px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: #ffc600;
   text-decoration: none;
 }
 
@@ -59,11 +62,14 @@
   color: white;
   font-size: 18px;
   border: 2px solid #ffc600;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .navbar-wagon-button:hover {
-  color: white;
-  background: #D23333;
-  border-color: #ac2626;
+  color: #ffc600;
+  background: white;
+  border-color: #ffc600;
 }
 
 /* Navbar search form */
