@@ -3,5 +3,15 @@
 //= require_tree .
 
 jQuery(document).ready(function(){
-  jQuery('.slick ').slick();
+  jQuery('.slick ').slick({
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          dots: true,
+          arrows: false
+        }
+      }
+    ]
+  });
 })

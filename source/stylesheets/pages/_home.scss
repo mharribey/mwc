@@ -31,7 +31,7 @@ h1{
 
 #identite::after{
 opacity: 0.1;
-font-size: 90px;
+font-size: 80px;
 position: absolute;
 content: 'identité';
 top: 11px;
@@ -40,7 +40,7 @@ left: 11px;
 
 #activite::after{
 opacity: 0.1;
-font-size: 90px;
+font-size: 80px;
 position: absolute;
 content: 'activités';
 top: 11px;
@@ -49,7 +49,7 @@ left: 11px;
 
 #planning::after{
 opacity: 0.1;
-font-size: 90px;
+font-size: 80px;
 position: absolute;
 content: 'planning';
 top: 11px;
@@ -65,6 +65,20 @@ left: 11px;
 .img-pres{
   width: 100%;
   margin-bottom: 50px;
+}
+
+@media (max-width: 978px) {
+  .img-pres{
+    margin-bottom: 0px!important;
+  }
+
+  .slick-list.draggable{
+    height: 450px!important;
+  }
+}
+
+.slick-list.draggable{
+  height: 230px;
 }
 
 .activite-title{
@@ -84,7 +98,3 @@ left: 11px;
 .line{
   height: 5px;
   background: #FFFFFF;}
-
-.slick-track {
-  height:15em;
-}
