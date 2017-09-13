@@ -10,6 +10,10 @@ h1{
   font-weight: 900;
 }
 
+.container {
+  padding:1.5em 0 !important;
+}
+
 .sous-titre{
   font-size: 30px;
   font-weight: 500;
@@ -22,7 +26,7 @@ h1{
 
 #identite, #activite{
   font-weight: 900;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 #identite::after{

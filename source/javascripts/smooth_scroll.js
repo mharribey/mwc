@@ -2,11 +2,11 @@
 SMOOTH SCROLL
 ============ */
 
-$('a[href^="#"]').click(function() {
-    var the_id = $(this).attr("href");
-
-    $('html, body').animate({
-        scrollTop: $(the_id).offset().top
-    }, 'slow');
-    return false;
-});
+$(document).ready(function() {
+		$('.smooth-scroll').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
