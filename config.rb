@@ -11,10 +11,10 @@
 activate :autoprefixer
 
 # Use “pretty” URLs (without the `.html` suffix)
-activate :directory_indexes
+# activate :directory_indexes
 
 # Append hashes to compiled assets
-activate :asset_hash
+# activate :asset_hash
 
 ###
 # Page options, layouts, aliases and proxies
